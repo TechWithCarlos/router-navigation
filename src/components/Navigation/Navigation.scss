@@ -1,0 +1,21 @@
+.navigation {
+  .nav {
+    margin: 2rem;
+    ul {
+      display: flex;
+      li {
+        a {
+          padding: 0.5rem;
+          margin: 2rem;
+          background: #330133;
+          border-radius: 0.5rem;
+          font-weight: bold;
+          border: 1px solid hotpink;
+        }
+      }
+    }
+  }
+  .active {
+    color: hotpink;
+  }
+}
